@@ -1,4 +1,4 @@
-# 📡 IoT-Based Smart Energy Meter  
+#  IoT-Based Smart Energy Meter  
 ### Using ESP32 · SCT-013 · ZMPT101B · Blynk 2.0
 
 ## 📘 Overview
