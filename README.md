@@ -45,10 +45,10 @@ A local **20x4 I2C LCD** displays all readings, and **EEPROM** ensures energy da
 
 ---
 
-## 📦 Folder Structure
+#   Circuit Diagram
 
+![Circuit Diagram](./images/Circuit_diagram.png)
 
----
 
 ## 🔄 Working Process
 - Initialize WiFi, sensors, LCD, Blynk  
@@ -57,7 +57,11 @@ A local **20x4 I2C LCD** displays all readings, and **EEPROM** ensures energy da
 - Compute power and energy (kWh)  
 - Display on LCD  
 - Send to Blynk every cycle  
-- Store kWh in EEPROM periodically  
+- Store kWh in EEPROM periodically
+
+# Flow Chart
+
+![Flowchart](./images/Flowchart.png)
 
 ---
 
@@ -67,6 +71,9 @@ A local **20x4 I2C LCD** displays all readings, and **EEPROM** ensures energy da
 - Reliable EEPROM storage  
 - Suitable for home loads  
 
+# Final Model
+
+![Final Model](./images/final_model.png)
 ---
 
 ## 🔧 Optimizations
@@ -93,14 +100,6 @@ Writes only when kWh changes → increases memory life.
 - Power theft detection  
 - App notifications  
 - Solar generation tracking  
-
----
-
-## 👥 Team
-- Basavaraj Burli  
-- Nivedita Balunavar  
-- Sankeerna Teli  
-- Shivakumar Reddy  
 
 ---
 
