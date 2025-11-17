@@ -1,8 +1,8 @@
-#  IoT-Based Smart Energy Meter  
+#  IoT-Based Energy Meter  
 ### Using ESP32 · SCT-013 · ZMPT101B · Blynk 2.0
 
 ## 📘 Overview
-This project is an **IoT-based Smart Energy Meter** built using an ESP32 microcontroller, SCT-013 current sensor, and ZMPT101B voltage sensor.  
+This project is an **IoT-based Energy Meter** built using an ESP32 microcontroller, SCT-013 current sensor, and ZMPT101B voltage sensor.  
 It measures **voltage, current, power, energy (kWh), and power factor**, and uploads the data to **Blynk 2.0** for real-time cloud monitoring.
 
 A local **20x4 I2C LCD** displays all readings, and **EEPROM** ensures energy data is saved even during power outages.
